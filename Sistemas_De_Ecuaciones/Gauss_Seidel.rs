@@ -41,7 +41,7 @@ fn Gauss_Seidel(A: [[f64;tam]; tam] ,b:[f64;tam],x0:[f64;tam],tol: f64,iterMax: 
 //-------------------------------------------------------------------------------
 
 
-//Esta funcion de encarga de realizar el alggoritmo de sustitucion hacia delante , retornando una
+//Esta funcion de encarga de realizar el algoritmo de sustitucion hacia delante , retornando una
 //solucion para ese sistema de matrices
 fn sustitucion_adelante(A: [[f64;tam]; tam] ,b:[f64;tam])-> [f64; tam]{
     let mut x = [0f64; tam];
@@ -156,7 +156,7 @@ fn imprimir_matriz_simple(slice: &[f64;tam]){
 fn norma_simple(A:[f64;tam])-> f64{
     let mut numeros:f64=0.0;
     let mut norma:f64=0.0;
-    for i in 0..tam {
+    for i in 0..tam {s,
         numeros=(A[i].powf((2 as f64))+numeros as f64);
     }
     norma= (numeros.powf((0.5 as f64)) as f64);
