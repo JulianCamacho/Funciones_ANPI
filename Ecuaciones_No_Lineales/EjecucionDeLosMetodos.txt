@@ -1,0 +1,3 @@
+Para ejecutar los métodos: Bisección, Newton-Raphson, Falsa Posición y Secante
+Correr en la terminal de la carpeta: ./main
+Esto ejecutará main.exe que contiene las pruebas para dichos métodos.
